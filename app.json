@@ -1,11 +1,11 @@
 {
   "expo": {
-    "name": "1st",
-    "slug": "1st",
+    "name": "Movies",
+    "slug": "movies",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
-    "scheme": "1st",
+    "scheme": "movies",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
