@@ -10,7 +10,7 @@ const TabIcon = ({focused, icon, text} : any) => {
  if(focused){
   return (
 
-    <ImageBackground source={images.highlight} className='flex flex-row w-full flex-1 min-w-[110px] min-h-16 mt-[11.5px] justify-center items-center rounded-full overflow-hidden'>
+    <ImageBackground source={images.highlight} className='flex flex-row w-full flex-1 min-w-[109px] min-h-16 mt-[11.5px] justify-center items-center rounded-full overflow-hidden'>
       <Image
         source={icon}
         tintColor={focused ? '#fff' : '#151312'}
@@ -37,19 +37,20 @@ const _layout = () => {
     tabBarShowLabel: false,
     tabBarStyle: {
       backgroundColor: '#0f0D23',
-      borderRadius:50,
-      marginHorizontal:24,
-      marginBottom:38,
-      height:50,
+      borderRadius:100,
+      marginHorizontal:20,
+      marginBottom:40,
+      height:52,
       position: 'absolute',
       overflow: 'hidden',
-
+      paddingTop:1
     },
     tabBarItemStyle: {
       width: '100%',
       height: '100%',
       justifyContent: 'center',
       alignItems: 'center',
+
     },
   }}
 >
